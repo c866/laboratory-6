@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+body {
+    background-color: #62483A; /* Brown color matching the theme */
+    color: #FFF;git commit -m "Added HTML and CSS files for coffee website"
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #5F4A3B;
+}
+
+header .logo img {
+    width: 200px;
+    margin-top: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    font-weight: bold;
+    text-indent: 0%;
+    color: black; 
+}
+.hero-text p {
+    font-size: 35px;
+    margin: 20px 0;
+    color:black;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 590px; 
+    height: 380px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.button{
+    padding: 5px;
+    margin-top: 60px;
+}
